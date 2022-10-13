@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{624B7DA8-88C3-40D6-A64E-89DEA7224A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E6977C22-2DB0-4642-9FC9-0535CF196DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MXTarget.WebView", "MXTarget.WebView\MXTarget.WebView.csproj", "{CDE02C66-AD7C-491E-BCBD-9EF2DC6DB8B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624B7DA8-88C3-40D6-A64E-89DEA7224A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624B7DA8-88C3-40D6-A64E-89DEA7224A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624B7DA8-88C3-40D6-A64E-89DEA7224A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624B7DA8-88C3-40D6-A64E-89DEA7224A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6977C22-2DB0-4642-9FC9-0535CF196DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6977C22-2DB0-4642-9FC9-0535CF196DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6977C22-2DB0-4642-9FC9-0535CF196DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6977C22-2DB0-4642-9FC9-0535CF196DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE02C66-AD7C-491E-BCBD-9EF2DC6DB8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE02C66-AD7C-491E-BCBD-9EF2DC6DB8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE02C66-AD7C-491E-BCBD-9EF2DC6DB8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE02C66-AD7C-491E-BCBD-9EF2DC6DB8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA3B1DD5-1D91-4553-AC14-1AD01B570E34}
+	EndGlobalSection
+EndGlobal
