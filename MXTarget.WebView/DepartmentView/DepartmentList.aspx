@@ -19,10 +19,10 @@
             </asp:GridView>
         </div><br />
         <asp:Panel ID="pnlCrudDepartmentPanel" runat="server" HorizontalAlign="Center">
-            <asp:Button ID="btnNew" runat="server" Text="New" class="btn-config" />&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btnUpdate" runat="server" Text="Update" class="btn-config" />&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btnDelete" runat="server" Text="Delete" class="btn-config" />&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btnClose" runat="server" Text="Back" class="btn-config" />
+            <asp:Button ID="btnNew" runat="server" Text="New" class="btn-new-config" />
+            <asp:Button ID="btnUpdate" runat="server" Text="Update" class="btn-update-config" />
+            <asp:Button ID="btnDelete" runat="server" Text="Delete" class="btn-delete-config" />
+            <asp:Button ID="btnClose" runat="server" Text="Back" class="btn-back-config" style="margin: 5px 10px 5px 10px;"/>
         </asp:Panel>
         </fieldset>
     </form>
