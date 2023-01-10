@@ -8,18 +8,17 @@
     <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
 <body>
-    <form id="frmDepartmentForm" action="">
+    <form id="frmDepartmentForm" runat="server" action="">
         <div align="center">
             <fieldset class="main-field">
-                <legend>Department</legend>
-                <div class="department-field">
-                    New Department &nbsp;
-                    <asp:TextBox ID="txtDepartment" runat="server" Width="153px" BorderColor="#CCCCCC" />
-                    <br />
+                <legend class="legend-config">Department</legend>
+                <div align="center" class="div-align-subcontent">
+                   <label for="newDepartment" class="label-config">New Department</label>
+                    <asp:TextBox ID="txtDepartment" runat="server" CssClass="input-align"/>
                 </div>
-                <div>
-                    <asp:Button ID="btnSave" runat="server" Text="Save" class="btn-config" />&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btnBack" runat="server" Text="Back" class="btn-config" />
+                <div align="center">
+                    <asp:Button ID="btnSave" runat="server" Text="Save" class="btn-save-config" />
+                    <asp:Button ID="btnBack" runat="server" Text="Back" class="btn-back-config" />
                 </div>
             </fieldset>
         </div>

@@ -9,66 +9,55 @@
 </head>
 <body>
     <form id="frmEmployeeForm" runat="server" action="#">
-        <div>
-            <div align="center">
-                <fieldset class="main-field" id="employee-field">
+        <div align="center">
+            <div>
+                <fieldset>
                     <legend class="legend-config">Employee</legend>
-                    <div align="left">
-                        <p class="p-config">
-                            <asp:Label ID="lblUser" runat="server" CssClass="label-config">User Nº </asp:Label>
-                           
-                    <asp:TextBox ID="txtUserNo" runat="server" class="txt-config" />&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="btnCheck" runat="server" Text="Check" class="btn-config" />
-                        </p>
-                        <p class="p-config">
-                            <asp:Label ID="lblPasword" runat="server" CssClass="label-config">Password </asp:Label>&nbsp;
-                    <asp:TextBox ID="txtPassword" runat="server" class="txt-config" />&nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:CheckBox ID="chkAdmin" runat="server" Font-Size="Medium" Text=" is Admin?" />
-                        </p>
-                        <br />
+
+                    <div align="left" class="div-align">
+                        <label for="userNo" class="label-config">User Nº</label>
+                        <input texto="text" name="txtuserNo" id="userNo" class="input-align" />
                     </div>
-                    <div align="left">
-                        <fieldset class="sub-field">
-                            <legend class="legend-config">Employee Data</legend>
-                            <p class="p-config">
-                                <asp:Label ID="lblName" runat="server" CssClass="label-config" Text="Name" />
-                                <asp:TextBox ID="txtName" runat="server" class="txt-config input-location" />
-                            </p>
-                            <p class="p-config">
-                                <asp:Label ID="lblSurname" runat="server" CssClass="label-config" Text="Surname" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="txtSurname" runat="server" class="txt-config" />
-                            </p>
-                            <p class="p-config">
-                                <asp:Label ID="lblSalary" runat="server" CssClass="label-config" Text="Salary" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="txtSalary" runat="server" class="txt-config" />
-                            </p>
-                            <p class="p-config">
-                                <asp:Label ID="lblDepartment" runat="server" CssClass="label-config" Text="Department" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:DropDownList CssClass="txt-config" runat="server" />
-                            </p>
-                            <p class="p-config">
-                                <asp:Label ID="lblPosition" runat="server" CssClass="label-config" Text="Position" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:DropDownList CssClass="txt-config" runat="server" />
-                            </p>
-                            <p class="p-config">
-                                <asp:Label ID="lblBirthDay" runat="server" CssClass="label-config" Text="Birthday" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="txtBirthday" runat="server" class="txt-config" />
-                            </p>
-                            <p class="p-config">
-                                <asp:Label ID="lblAddress" runat="server" CssClass="label-config" Text="Address" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <asp:TextBox ID="txfAddress" runat="server" class="txt-config" />
-                            </p>
-                        </fieldset>
+
+                    <div align="left" class="div-align-subcontent">
+                        <label for="name" class="label-config">Nome</label>                        
+                        <input texto="text" name="nome" id="subcontent-config" class="input-align" style="margin: 0px 0px 0px 72px;" />
                     </div>
-                    <asp:Button ID="btnSave" runat="server" Text="Save" class="btn-config" />
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btnBack" runat="server" Text="Back" class="btn-config" />
+
+                </fieldset>
+
+                <fieldset>
+                    <legend class="legend-config">Employee Data</legend>
+
+                    <div align="left" class="div-align">
+                        <label for="Name" class="label-config">Name</label>
+                        <input texto="text" name="txtName" id="Name" class="input-align" style="margin: 0px 0px 0px 70px;" />
+                    </div>
+
+                    <div align="left" class="div-align">
+                        <label for="Surname" class="label-config">Surname</label>
+                        <input texto="text" name="txtSurname" id="Surname" class="input-align" style="margin: 0px 0px 0px 35px;" />
+                    </div>
+
+                    <div align="left" class="div-align">
+                        <label for="Salary" class="label-config">Salary</label>
+                        <input texto="text" name="txtSalary" id="Salary" class="input-align" style="margin: 0px 0px 0px 45px;" />
+                    </div>
+
+                    <div align="left" class="div-align">
+                        <label for="Department" class="label-config">Department</label>
+                        <asp:DropDownList runat="server" CssClass="input-align" style="margin: 0px 0px 0px 40px;"/>
+                    </div>
+
+                    <div align="left" class="div-align">
+                        <label for="Position" class="label-config">Position</label>
+                        <asp:DropDownList runat="server" CssClass="input-align" style="margin: 0px 0px 0px 60px;"/>
+                    </div>
+
+                    <div align="left" class="div-align">
+                        <label for="Birthday" class="label-config">Birthday</label>
+                        <input type="date" id="birthday" name="birthday" style="margin: 0px 0px 0px 20px;"/>
+                    </div>
                 </fieldset>
             </div>
         </div>

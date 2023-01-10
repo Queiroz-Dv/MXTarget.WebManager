@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
 <body>
-    <form id="frmDepartmentListForm" runat="server">
+    <form id="frmDepartmentListForm" runat="server" action="#">
         <fieldset>
-            <legend>Department List</legend>
+            <legend class="legend-config">Department List</legend>
         <div align="center">
-            <asp:GridView ID="grpDepartmentView" runat="server" CellPadding="8" ForeColor="#333333" GridLines="None" class="gridView-config" AutoGenerateColumns="false">
+            <asp:GridView ID="grpDepartmentView" runat="server" CellPadding="8" ForeColor="#333333" GridLines="Both" AutoGenerateColumns="false">
               <Columns>
-                  <asp:TemplateField HeaderText="Cod."></asp:TemplateField>
                   <asp:TemplateField HeaderText="Depart. Name"></asp:TemplateField>
               </Columns>
             </asp:GridView>
